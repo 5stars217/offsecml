@@ -11,6 +11,9 @@ last_tested: 08/2023
 transferable: "True"
 ---
 **PoC:**
+You can see an example of this being used in an Op in this write up:
+https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/#model-poisoning 
+
 The easiest way to modify an LLM's ground truths is with the EasyEdit Framework:
 https://github.com/zjunlp/EasyEdit
 

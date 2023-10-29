@@ -11,8 +11,8 @@ last_tested: 08/2023
 
 
 
-**details**
-
+**Details**
+Interesting research into using precise character sequences, is still effective and also transferable. 
 
 **PoC**
 https://llm-attacks.org/

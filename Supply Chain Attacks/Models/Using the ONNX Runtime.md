@@ -16,4 +16,5 @@ via [kserve](obsidian://open?vault=AVML&file=Supply%20Chain%20Attacks%2FMLops%20
 **Details**
 A proof of concept custom operation in ONNX runtime that has side effects and creates files on the target machine. This should be extended to run shellcode from ONNX.
 Difficult to deploy remotely, could be chained with a [kserve based attack](obsidian://open?vault=AVML&file=Supply%20Chain%20Attacks%2FMLops%20Pipelines%2FUsing%20kserve)  to make shared library this relies on portable. 
+From the awesome work of [alkaet](https://github.com/alkaet) 
 

@@ -2,6 +2,7 @@
 tags:
   - offensiveML
 aliases:
+  - op-bot
 ---
 
 ## PoC
