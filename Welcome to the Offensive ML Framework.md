@@ -38,7 +38,7 @@ Taking a 'learn by doing' approach.
 
 Each page has properties such as `transferability` (likelihood the ML attack on one system works on another), `last tested` (when I last performed it and verified it works) and `aliases` (other names it's known by).
 
-The publishing mechanism suppresses this information, but you can [find it in the Github](https://github.com/5stars217/offsecml_ ). 
+The publishing mechanism suppresses this information, but you can [find it in the Github](https://github.com/5stars217/offsecml). 
 
 ## What's next?
 
