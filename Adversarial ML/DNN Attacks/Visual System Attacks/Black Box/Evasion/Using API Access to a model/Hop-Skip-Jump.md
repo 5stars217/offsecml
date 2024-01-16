@@ -7,8 +7,6 @@ tags:
 last_tested: 10/2023
 transferable: "True"
 ---
-
-
 ## **PoC**
 This attack is [implemented in Countefit.](https://github.com/Azure/counterfit/blob/9aee1ea6958fe48edbe289aaef895a902aeccc80/counterfit/frameworks/art/attacks/hop_skip_jump.yml#L2) 
 

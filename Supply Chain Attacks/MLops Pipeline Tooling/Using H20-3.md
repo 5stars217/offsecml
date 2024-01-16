@@ -9,7 +9,7 @@ transferable: N/A
 
 ## **PoC**
 exposed to local network
-Usually authentication 
+authentication off by default
 known to have arbitrary file overwrites
 
 No authorization model

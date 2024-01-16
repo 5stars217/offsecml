@@ -21,10 +21,11 @@ A python lib with a UI, includes some java. Scales out resources for creating mo
 
 - Kubeflow dashboard is a RCE vector like Jupyter notebooks. 
 - Lots of basic vulnerabilities present as of 10/2023
-- basic SSRF's to be found, at endpoints like `pipeline/artifacts/get?source=minio&namespace=$payload&peek=256&bucket=mlpipeline 
+- basic SSRF's to be found, at endpoints like `pipeline/artifacts/get?source=minio&namespace=$payload&peek=256&bucket=mlpipeline`  
+- Can be present inside or outside a k8s cluster, and can be used as a gateway to internal network.s
 
 	
 [Video](https://www.youtube.com/watch?v=_PC4PwSlPT4)
-[Paper](https://hackstery.com/2023/10/13/no-one-is-prefect-is-your-mlops-infrastructure-leaking-secrets/ ) 
+[Paper](https://mlsecops.com/resources/hacking-ai-account-hijacking-and-internal-network-attacks-in-kubeflow) 
 Source: twitter.com/danhmcinerney  
 ### ATT&CK Matrix

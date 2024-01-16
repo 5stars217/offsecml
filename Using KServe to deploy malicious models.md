@@ -1,21 +1,3 @@
----
-aliases:
-  - mlops-attacks
-tags:
-  - model-malware
-  - supply-chain-attack
-  - offensiveML
-  - MLops-attack
-last_tested: 10/2023
----
-## **Details**
-KServe is a model deployment tool for Kubernetes which ingests models using containers, malware can be inserted into a model pipeline via this mechanism. 
-https://github.com/kserve/kserve 
-malicious containers can be placed in the repository of either models or containers (depending on the target environment) and pulled into a KServe execution environment. 
-## **PoC** - making the malicious docker image, pushing to kserve
-
-https://5stars217.github.io/2023-10-25-using-KServe-to-deploy-malicious-models/#poc 
-
 *Let's take malicious models a step further, and hide a malicious model inside a container.* 
 
 This builds on two pieces of research posted earlier on this blog:
@@ -38,19 +20,17 @@ KServe introduces a few core concepts on top of Kubernetes, but the most importa
 Whether you're attacking an MLops Pipeline as either an internal pivot or as part of a supply chain attack from the outside, the odds are high that KServe is valuable component of the target environment.
 
 Malicious Containers can be placed in either a container repository or a model repository  (depending on the target environment) and pulled into a kserve execution environment for detonation: 
-
-	
+![[Pasted image 20231024144448.png]]
 
 ## **PoC** 
 #### Making the malicious KServe inference service and pushing to kserve
 
-####  The basic steps are as follows:
-
-- Create Container Image
-- Load in the Malicious Model
-- Build Container Image
-- Push Container Image
-- Deploy
+The basic steps are as follows:
+[Create Container Image]()
+[Load in a Malicious Model]() 
+[Build Container Image]()
+[Push Container Image]()
+[Deploy]()
 
 ## Create Container Image 
 We'll build a container image to be called by the InferenceService later.
@@ -178,5 +158,3 @@ You now have a malicious model within a container running in Kubernetes, stored 
 - Container images and Models should be sourced and stored on an internal registry, with a process for certain team members to ingest models from the web.
 - Model formats should be restricted to formats such as [safetensors](https://github.com/huggingface/safetensors) 
 - Implement eBPF based runtime detection systems such as `tracee` or `cilium` or closed source. 
-
-### ATT&CK Matrix

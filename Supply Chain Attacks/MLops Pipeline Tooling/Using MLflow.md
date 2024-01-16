@@ -9,7 +9,9 @@ transferable: N/A
 
 
 ## **PoC**
-Vuln Scanner for MLFlow 2023 CVE's.
+- MLflow can be discovered in a target environment using this [[discovering ml deployment environments|nmap]] 
+
+- Vuln Scanner for MLFlow 2023 CVE's.
 https://github.com/protectai/Snaike-MLflow 
 
 

@@ -18,3 +18,5 @@ Nemesis is an offensive data enrichment pipeline and operator support system.
 
 Built on Kubernetes with scale in mind, our goal with Nemesis was to create a centralized data processing platform that ingests data produced during offensive security assessments.
 From the team at [SpectreOps](https://github.com/SpecterOps/) 
+
+It's been reported that Nemesis can be troublesome to set up, here is a [great post on setting it up](https://blog.checkymander.com/red%20team/tools/operations/Nemesis-Zero-To-Hero/) by [checkymander](https://twitter.com/checkymander) 
