@@ -1,13 +1,13 @@
 ---
 aliases:
   - TAP
+  - parley
 tags:
   - black-box
   - prompt-injection
 last_tested: 12/2023
 transferable: "True"
 ---
-
 
 ## **PoC**
 [the code](https://github.com/RICommunity/TAP)
@@ -21,4 +21,6 @@ TAP is an automatic query-efficient black-box method for jailbreaking LLMs using
 
 [Paper](https://arxiv.org/abs/2312.02119) 
 by [Anay](https://github.com/AnayMehrotra) and [drhyrum](https://github.com/drhyrum) et. al 
+
+Note that jailbreaks have varying degrees of efficacy, a jail-broken model is not necessarily one that is able to fulfill requests to a useful standard. [paper](https://arxiv.org/abs/2402.10260)
 ### ATT&CK Matrix

@@ -6,8 +6,6 @@ tags:
 last_tested: 11/2023
 transferable: "True"
 ---
-
-
 ## **PoC**
 
 Reconstruct text sequences from embeddings as well as run pre-trained models.
@@ -20,4 +18,6 @@ It has been previously assumed that embeddings could not be reconstructed to rev
 [video](https://www.youtube.com/watch?v=lguThumFUl4) 
 [Code demo](https://colab.research.google.com/drive/14RQFRF2It2Kb8gG3_YDhP_6qE0780L8h?usp=sharing )
 [Paper](https://arxiv.org/abs/2310.06816) 
+
+A paper for a multilingual implementation of this attack exists [paper](https://arxiv.org/pdf/2401.12192.pdf) 
 ### ATT&CK Matrix

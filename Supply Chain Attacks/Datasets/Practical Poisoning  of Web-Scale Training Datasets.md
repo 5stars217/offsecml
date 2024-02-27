@@ -77,6 +77,7 @@ Shows how they could have poisoned 0.01% of the LAION-400M or COYO-700M datasets
 
 - Map topics to expired domains, e.g `label contains "birds"`  
 - Target those domains by weighting and cost for replacement images. 
+- Alternatively, you could follow the instructions to use [nightshade](https://wiki.offsecml.com/Adversarial+ML/Image+Attacks/Using+poisoned+concepts+in+visually+similar+images) to more subtly perturb the images. 
 
 From the current list, here is some domains that have images tagged as containing birds:
 
@@ -98,6 +99,6 @@ christopherlagrange.com,14.5
 
 host a simple web-server with an alternative image on the specific URL.
 
-Getting thousands of poisoned images into a dataset is not going to be diffuclt when the dataset has thousands of expired domains.
+Getting thousands of poisoned images into a dataset is not going to be difficult when the dataset has thousands of expired domains.
 
 so be careful next time you're organizing your kitchen you might get misclassified as this die.

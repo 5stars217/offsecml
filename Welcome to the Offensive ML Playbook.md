@@ -1,9 +1,15 @@
-Latest: 1/8/24 version: 0.9 *First published 10/26*/23. 
+Latest: 2/25/24 version: 0.9.7
+*First published 10/26*/23. 
 ## Shiny new things
+- [Using a multi-modal LLM to solve CAPTCHAS](https://wiki.offsecml.com/Offensive+ML/CAPTCHA+Solving/Using+a+multi-modal+LLM) 
+- [A Jupyter Post-Exploitation Technique](https://wiki.offsecml.com/Supply+Chain+Attacks/MLops+Pipeline+Tooling/Using+Jupyter)
 - [Generating phishing pages with ML to bypass detections](https://wiki.offsecml.com/Offensive+ML/Phishing/Avoiding+phishing+webpage+detectors+via+black+box+ML) 
-- [workarounds for Tensorflow and Keras model execution](https://wiki.offsecml.com/Supply+Chain+Attacks/Models/Using+Keras+Lambda+Layers) 
+- [Workarounds for Tensorflow and Keras model execution](https://wiki.offsecml.com/Supply+Chain+Attacks/Models/Using+Keras+Lambda+Layers) 
+- [LLMs as fuzzers](https://wiki.offsecml.com/Offensive+ML/Fuzzing/using+LLMS+as+fuzzers) 
+- [LLMs as general purpose offensive security bots](https://wiki.offsecml.com/Offensive+ML/General+Purpose+Hackbots/Using+LLMs+for+general+purpose+offensive+security) 
+- [Using PyRIT to assess LLM Harms](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Assess+Harm/Using+PyRIT+to+assess+robustness+against+harm)
 
-## What is this? 
+## What is this?  
 This is an amalgam of TTP's on different offensive ML attacks encompassing the ML supply chain and adversarial ML attacks.
 It is *focused heavily* on attacks that have code you can use to perform the attacks right away, rather than a database of research papers. (PoC or GTFO type logic). Generally speaking if it is here I have tested it and it works. 
 
@@ -19,7 +25,7 @@ The goal is to organize the attacks in a way that is useful to red team operator
 
 > **AdversarialML** the sub discipline of attacks against ML.
 
-> **Supply Chain** **Attacks**  encompasses attacks on unique ML upstreams, can usually be performed from the perimeter. 
+> **Supply Chain** **Attacks**  encompasses attacks on unique ML upstreams, can usually be performed from the perimeter, or with typical implant-based system compromise.
 
 ## Where to start? 
 
@@ -46,8 +52,8 @@ The publishing mechanism suppresses this information, but you can [find it in th
 
 ## What's next?
 
-- Labels and page properties are currently suppressed, which is a shame because they cover things like `transferability TRUE/FALSE/NA` , `last_tested $date` , and many other useful datapoints. 
-- Graphing is currently only supported via backlinks, of which there are none, and need to be built off the labelling. 
+- Labels and page properties are currently suppressed, which is a shame because they cover things like `transferability TRUE/FALSE/NA` , `last_tested $date` , and many other useful data-points. 
+- Graphing is currently only supported via back-links, of which there are none, and need to be built off the labeling. 
 - AdversarialML is very light on content, as I only add content that I have tested and confirmed to be working. 
 #### About me 
 My name is threlfall and I'm a red teamer interested in machine learning. 
