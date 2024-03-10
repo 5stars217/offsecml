@@ -16,6 +16,8 @@ By [albocoder](twitter.com/albocoder)
 [Video]()
 [Paper](https://albocoder.github.io/fuzzing/exploitation/linux%20kernel/hacking/ai/gpt/llm/2023/11/27/GPT-syzkaller.html?utm_source=tldrsec.com&utm_medium=referral&utm_campaign=tl-dr-sec-211-llms-fuzzing-navigating-the-incident-response-maze-product-security-hashicorp) 
 
+**3/10/24 update:** A great thread [here](https://twitter.com/moyix/status/1765967602982027550)on  using Claude Opus for this task, and the incredible performance it obtained. 
+
 ## **PoC** - Fuzzing c/c++ libs
 
 [The code](https://github.com/google/oss-fuzz-gen) 
@@ -26,4 +28,3 @@ This work has really great prompt engineering which is [worth a look](https://st
 
 [paper](https://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html)
 
-### ATT&CK Matrix

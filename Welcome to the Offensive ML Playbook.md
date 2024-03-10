@@ -1,13 +1,14 @@
-Latest: 2/25/24 version: 0.9.7
+Latest: 3/10/24 version: 0.9.8
 *First published 10/26*/23. 
 ## Shiny new things
 - [Using a multi-modal LLM to solve CAPTCHAS](https://wiki.offsecml.com/Offensive+ML/CAPTCHA+Solving/Using+a+multi-modal+LLM) 
 - [A Jupyter Post-Exploitation Technique](https://wiki.offsecml.com/Supply+Chain+Attacks/MLops+Pipeline+Tooling/Using+Jupyter)
-- [Generating phishing pages with ML to bypass detections](https://wiki.offsecml.com/Offensive+ML/Phishing/Avoiding+phishing+webpage+detectors+via+black+box+ML) 
-- [Workarounds for Tensorflow and Keras model execution](https://wiki.offsecml.com/Supply+Chain+Attacks/Models/Using+Keras+Lambda+Layers) 
-- [LLMs as fuzzers](https://wiki.offsecml.com/Offensive+ML/Fuzzing/using+LLMS+as+fuzzers) 
 - [LLMs as general purpose offensive security bots](https://wiki.offsecml.com/Offensive+ML/General+Purpose+Hackbots/Using+LLMs+for+general+purpose+offensive+security) 
 - [Using PyRIT to assess LLM Harms](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Assess+Harm/Using+PyRIT+to+assess+robustness+against+harm)
+- [Using an adversarial self-replicating prompt](https://wiki.offsecml.com/Adversarial+ML/Using+an++API+Endpoint+or+Black+Box/Prompt+Injection/Using+an+adversarial+self-replicating+prompt)
+- [Visual Prompt Injection](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Prompt+Injection/Visual+Prompt+Injection) 
+- [Defense: using control vectors to modify or focus LLM behavior](https://wiki.offsecml.com/Defensive+ML+-++Category+WIP/Defending+LLMs/Using+control+vectors+to+modify+or+focus+LLM+behavior)
+- 
 
 ## What is this?  
 This is an amalgam of TTP's on different offensive ML attacks encompassing the ML supply chain and adversarial ML attacks.
@@ -26,6 +27,8 @@ The goal is to organize the attacks in a way that is useful to red team operator
 > **AdversarialML** the sub discipline of attacks against ML.
 
 > **Supply Chain** **Attacks**  encompasses attacks on unique ML upstreams, can usually be performed from the perimeter, or with typical implant-based system compromise.
+
+> **DefensiveML** The newest addition, focused on defensive applications of ML for blue team, and the defense of LLMs. 
 
 ## Where to start? 
 

@@ -8,7 +8,7 @@ last_tested: 01/2023
 transferable: "True"
 ---
 ## **PoC**
-[code](https://github.com/AashiqRamachandran/i-am-a-bot) could be deployed alongside something like [credstorm](https://github.com/workday/credstorm-sprayer) for mass password spraying or account validation from a variety of IP's. 
+[code](https://github.com/AashiqRamachandran/i-am-a-bot) could be deployed alongside something like [credstorm](https://github.com/workday/credstorm-sprayer) for mass password spraying or account validation from a variety of IP's. by [AashiqRamachandran](https://github.com/AashiqRamachandran)
 
 ## **Details**
 
