@@ -7,7 +7,7 @@ tags:
   - prompt-injection
   - black-box
 transferable: "True"
-last_tested: 12/2023
+last_tested: 03/2024
 ---
 *This page covers two attacks right now:
 repeated characters & repeated word as repeated tokens. 

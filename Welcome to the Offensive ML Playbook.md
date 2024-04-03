@@ -1,14 +1,15 @@
-Latest: 3/10/24 version: 0.9.8
+Latest: 4/02/24 version: 0.9.9
 *First published 10/26*/23. 
 ## Shiny new things
+
+- [Inverting DNN models with a framework](https://wiki.offsecml.com/Adversarial+ML/DNN+Attacks/Inverting+DNN+Models/Using+an+Inversion+Framework)
+- [A threat intelligence update to the ML Pipeline Attacks on Ray](https://wiki.offsecml.com/Supply+Chain+Attacks/MLops+Pipeline+Tooling/Using+Ray)
+- [Updates to repeated token attacks](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Prompt+Injection/Using+Repeated+Token+Sequences)
+- [poisoning netflow classifiers](https://wiki.offsecml.com/Offensive+ML/Attacking+Netflow+Classifiers/Poisoning+netflow+classifers)
 - [Using a multi-modal LLM to solve CAPTCHAS](https://wiki.offsecml.com/Offensive+ML/CAPTCHA+Solving/Using+a+multi-modal+LLM) 
-- [A Jupyter Post-Exploitation Technique](https://wiki.offsecml.com/Supply+Chain+Attacks/MLops+Pipeline+Tooling/Using+Jupyter)
-- [LLMs as general purpose offensive security bots](https://wiki.offsecml.com/Offensive+ML/General+Purpose+Hackbots/Using+LLMs+for+general+purpose+offensive+security) 
-- [Using PyRIT to assess LLM Harms](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Assess+Harm/Using+PyRIT+to+assess+robustness+against+harm)
-- [Using an adversarial self-replicating prompt](https://wiki.offsecml.com/Adversarial+ML/Using+an++API+Endpoint+or+Black+Box/Prompt+Injection/Using+an+adversarial+self-replicating+prompt)
 - [Visual Prompt Injection](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Prompt+Injection/Visual+Prompt+Injection) 
 - [Defense: using control vectors to modify or focus LLM behavior](https://wiki.offsecml.com/Defensive+ML+-++Category+WIP/Defending+LLMs/Using+control+vectors+to+modify+or+focus+LLM+behavior)
-- 
+
 
 ## What is this?  
 This is an amalgam of TTP's on different offensive ML attacks encompassing the ML supply chain and adversarial ML attacks.

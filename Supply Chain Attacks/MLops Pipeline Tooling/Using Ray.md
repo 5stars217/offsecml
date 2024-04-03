@@ -32,10 +32,15 @@ document.forms[0].submit();
 </html>
 
 ```
-## **Details**
 Source: twitter.com/danhmcinerney 
 https://hackstery.com/2023/10/13/no-one-is-prefect-is-your-mlops-infrastructure-leaking-secrets/ 
-A python lib with a UI, includes some java. Scales out resources for creating models
+## **Details**
+
+Ray is a seriously powerful tool, enabling the creation and modification of models and datasets. 
+Gaining access to Ray for an enterprise could be devastating. 
+**Threat intel:** [details of a campaign of targetting ML workloads, but for (sigh)
+running cryptominers. ](https://www.oligo.security/blog/shadowray-attack-ai-workloads-actively-exploited-in-the-wild) 
+
 
 	
 [Video](https://www.youtube.com/watch?v=e3ybnXjtpIc)

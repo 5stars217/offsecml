@@ -8,9 +8,10 @@ last_tested:
 transferable: "True"
 ---
 ## **PoC**
-Proof pudding stole scored datasets and created a copy-cat model for abuse.
+Proof pudding stole scored datasets and created a copy-cat model for abuse, by [moo_hax](twitter.com/moo_hax)
 By collecting scores from Proofpoint email headers, it was possible to build a copy-cat Machine Learning Classification model and extract insights from this model
 https://github.com/moohax/Proof-Pudding 
+plus
 https://github.com/rsmusllp/king-phisher 
 
 ## **Details**
