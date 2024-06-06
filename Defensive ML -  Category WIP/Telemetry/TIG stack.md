@@ -1,12 +1,14 @@
 ---
 aliases:
+  - tig
+tags:
+  - defense
   - pcap
   - pandas
-tags: 
-last_tested: 05/2024
-transferable: "True"
+last_tested: 06/2024
+transferable: N/A
 ---
-
+---
 ## **PoC**
 
 https://github.com/mundruid/iot_spy

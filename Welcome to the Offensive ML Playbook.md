@@ -1,14 +1,17 @@
-Latest: 4/02/24 version: 0.9.9
+Latest: 06/03/24 version: 1.0.2 
 *First published 10/26*/23. 
 ## Shiny new things
 
-- [Inverting DNN models with a framework](https://wiki.offsecml.com/Adversarial+ML/DNN+Attacks/Inverting+DNN+Models/Using+an+Inversion+Framework)
-- [A threat intelligence update to the ML Pipeline Attacks on Ray](https://wiki.offsecml.com/Supply+Chain+Attacks/MLops+Pipeline+Tooling/Using+Ray)
-- [Updates to repeated token attacks](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Prompt+Injection/Using+Repeated+Token+Sequences)
-- [poisoning netflow classifiers](https://wiki.offsecml.com/Offensive+ML/Attacking+Netflow+Classifiers/Poisoning+netflow+classifers)
-- [Using a multi-modal LLM to solve CAPTCHAS](https://wiki.offsecml.com/Offensive+ML/CAPTCHA+Solving/Using+a+multi-modal+LLM) 
-- [Visual Prompt Injection](https://wiki.offsecml.com/Adversarial+ML/LLM+Attacks/Using+an++API+Endpoint+or+Black+Box/Prompt+Injection/Visual+Prompt+Injection) 
-- [Defense: using control vectors to modify or focus LLM behavior](https://wiki.offsecml.com/Defensive+ML+-++Category+WIP/Defending+LLMs/Using+control+vectors+to+modify+or+focus+LLM+behavior)
+shout out to [mundruid/drX](https://github.com/mundruid) for a bunch of great contributions!
+
+- [Big Update to LLMs as fuzzers](https://wiki.offsecml.com/Offensive+ML/Fuzzing/using+LLMS+as+fuzzers+for+codebases#**PoC**+-+Fuzzing+c%2Fc%2B%2B+libs)
+- [new network pcap datasets category](https://wiki.offsecml.com/Defensive+ML+-++Category+WIP/Detecting+Malicious+Network+Traffic/PCAP+Datasets/IoT+Datasets )
+- [instructions on building out defensive telemetry](https://wiki.offsecml.com/Defensive+ML+-++Category+WIP/Telemetry/TIG+Stack) 
+- [Benchmarking hackbots and agents](https://wiki.offsecml.com/Offensive+ML/General+Purpose+Hackbots/Benchmarking+hackbots+and+agents) 
+- [LLM Interaction Frameworks](https://wiki.offsecml.com/Offensive+ML/General+Purpose+Hackbots/LLM+Interaction+Frameworks) 
+- [Detecting Malicious Models with an assessment framework](https://wiki.offsecml.com/Defensive+ML+-++Category+WIP/Detecting+Malicious+Models/Using+an+assessment+framework) 
+- [Using pcaps to detect malicious network traffic](https://wiki.offsecml.com/Defensive+ML+-++Category+WIP/Detecting+Malicious+Network+Traffic/Using+pcaps) 
+- [BentoML MLSecOps attacks](https://wiki.offsecml.com/Supply+Chain+Attacks/MLops+Pipeline+Tooling/Using+BentoML) 
 
 
 ## What is this?  
@@ -23,7 +26,7 @@ The goal is to organize the attacks in a way that is useful to red team operator
 
 ### The categories:
 
-> **OffensiveML** is the application of ML for red team purposes 
+> **OffensiveML** is the application of ML for red team purposes. I explore this in detail in [this blog](https://5stars217.github.io/2024-04-23-adversaries-sometimes-compute-gradients/) 
 
 > **AdversarialML** the sub discipline of attacks against ML.
 

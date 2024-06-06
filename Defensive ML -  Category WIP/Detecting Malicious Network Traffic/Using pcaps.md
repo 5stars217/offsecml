@@ -2,16 +2,22 @@
 aliases:
   - pcap
   - pandas
-tags: 
-last_tested: 05/2024
+tags:
+  - defense
+  - network
+last_tested: 06/2024
 transferable: "True"
 ---
 
 ## **PoC**
 
-https://github.com/mundruid/cyberdata-mlai
+https://github.com/mundruid/cyberdata-mlai by [Dr X ](
+https://github.com/mundruid)
 
 ## **Details**
+
+This project does some great benchmarking between LLMs and visual/statistical methods. 
+
 
 **Goal**: detect malicious activity using packet capture traffic
 

@@ -7,6 +7,8 @@ tags:
 last_tested: 2/2024
 transferable: N/A
 ---
+---
+
 
 ## **PoC** - fuzzing a kernel module
 Step-by-Step guide is [here](https://albocoder.github.io/fuzzing/exploitation/linux%20kernel/hacking/ai/gpt/llm/2023/11/27/GPT-syzkaller.html?utm_source=tldrsec.com&utm_medium=referral&utm_campaign=tl-dr-sec-211-llms-fuzzing-navigating-the-incident-response-maze-product-security-hashicorp) for fuzzing a kernel module using LLM generated content on system calls. 

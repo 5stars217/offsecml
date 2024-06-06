@@ -1,13 +1,14 @@
 ---
 aliases:
-  - IoT 
+  - stratosphere
 tags:
-  - classifier
   - defense
-  - datasets
+  - network
+  - classifier
 last_tested: 06/2024
 transferable:
 ---
+
 ## **PoC**
 
 [Stratosphere](https://www.stratosphereips.org/datasets-overview) 

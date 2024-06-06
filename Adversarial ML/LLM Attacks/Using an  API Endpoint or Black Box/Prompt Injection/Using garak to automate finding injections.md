@@ -18,3 +18,5 @@ https://github.com/leondz/garak
 ## **Details**
 `garak` checks if an LLM can be made to fail in an way we don't want. `garak` probes for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses. If you know `nmap`, it's `nmap` for LLMs.
 Best used directly. 
+
+[Great usage video by embrace the red](https://www.youtube.com/watch?v=f713_sFqItY) 

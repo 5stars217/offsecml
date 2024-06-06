@@ -2,11 +2,12 @@
 aliases:
   - kaggle
 tags:
-  - classifier
   - defense
+  - network
   - datasets
 last_tested: 06/2024
 transferable:
+---
 ---
 ## **PoC**
 
