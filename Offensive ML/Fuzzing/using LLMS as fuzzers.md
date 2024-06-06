@@ -28,3 +28,47 @@ This work has really great prompt engineering which is [worth a look](https://st
 
 [paper](https://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html)
 
+
+## **PoC** - Fuzzing network protocols
+
+[The code](https://github.com/ChatAFLndss/ChatAFL) 
+
+## Details
+Network protocol fuzzer based on benchmark for protocol fuzzing [ProFuzzBench](https://github.com/profuzzbench/profuzzbench) and [AFLNet](https://github.com/aflnet/aflnet). The LLM generates a grammar for the protocol and follows the state machine to send messages after mutating them. The LLM is also used to increase randomness of mutation and coverage.
+
+[paper](https://mengrj.github.io/files/chatafl.pdf)
+
+## **Survey** - Large Language Models Based Fuzzing Techniques
+
+Comprehensive survey for LLM applications in fuzzing. Notable bullet points:
+
+- promt engineering based LLM fuzzers
+	- ParaFuzz
+		- synonym mutations
+	- Fuzz4All
+	- CHATAFL
+	- Fuzz Driver Generation 
+	- BertRLFuzzer
+- seed mutation LLM fuzzers
+	- [Titanfuzz](https://github.com/ise-uiuc/TitanFuzz)
+		- CodeX generates data
+		- Part of data is masked
+		- Use fill in models to fill in the blanks
+	- Fuzzing parsers
+	- [Fuzz4all](https://zenodo.org/records/10456883)
+		- use starcoder and chatgpt
+	- [WhiteFox](https://github.com/google/oss-fuzz)
+		- white box fuzzing
+	- CHATAFL
+		- LLM assistant for network protocols
+	- Smart Fuzzing of 5G
+	- ChatFuzz
+	- InputBlaster
+	- CHEMFUZZ
+	- OSS-Fuzz
+- collect and analysis
+	- Smart Fuzzing of 5G
+	- Fuzz Driver Generation
+- [Understanding Zero-Shot Fuzz Driver Generation](https://sites.google.com/view/llm4fdg/home) 
+
+[paper](https://arxiv.org/abs/2402.00350)
